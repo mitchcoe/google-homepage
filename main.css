@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-family: arial;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.center {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 90px;
+    height: 230px;
+}
+
+#logo {
+    height: 92px;
+    width: 272px;
+    padding-top: 100px;
+}
+
+#search {
+    text-align: center;
+    
+}
+
+form {
+    display: inline-block;
+    height: 45px;
+    /*border: 1px;
+    border-color: #f2f2f2;*/
+    box-shadow: 1px 2px 5px 0 rgba(128,128,128,0.36);
+}
+
+input {
+    display: block;
+    height: 44px;
+    width: 586px;
+    border: none;
+}
+
+.searchbox {
+
+}
+
+#mic {
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+    right: 50px;
+}
+li {
+    display: inline-block;
+    padding: 8px 10px;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    margin: 0;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    align-content: center;
+    padding-top: 8px;
+}
+
+div.navleft {
+    float: left;
+    list-style-type: none;
+}
+
+div.navright {
+    float: right;
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer  {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+}
+
+ul.leftfoot {
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+ul.rightfoot {
+    position: relative;
+    float: right;
+    text-align: center;
+    padding: 5px;
+}
+
+.buttons {
+    margin-top: 25px;
+}
+
+button.searchButton {
+    background-color: #f2f2f2;
+    margin-left: 5px;
+    padding: 15px;
+    color: #757575;
+    font-weight: bold;
+}
